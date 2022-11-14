@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="filler"></div>
+        <h1 class="title">Profile</h1>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+        </ul>
+        <button class="sign-out">Sign Out</button>
+        <div class="filler"></div>
+    </div>
+    <div class="main">
+        <div class="user">
+            <img src="jane-m.jpg" class="jane" alt="jane-m">
+            <div class="user-banner"></div>
+            <ul class="user-info">
+                <li id="user-name">Jane Doe</li>
+                <li id="location"><img src="map-marker.png" alt="map-marker">Seattle</li>
+                <li>Developer | Engineer | Problem Solver<br>
+                Master of cats, games, and the Internet</li>
+                <li id="edit"><a href="#"><img src="gear.png" alt="gear">edit profile</a></li>
+            </ul>
+        </div>
+        <div class="education">
+            <div class="education-banner">Education</div>
+            <div class="education-info">
+                <p id="school">Coding Dojo - Full Stack Bootcamp</p>
+                <p id="dates">Nov 2022 - March 2023</p>
+                <p id="skills">Triple black belt in Python, MERN, and Java...</p>
+            </div>
+        </div>
+    </div>
+    <div class="networking">
+        <div class="requests">
+            <div class="networking-banner"><span class="count">2</span>Connection Requests</div>
+            <ul class="list">
+                <li class="individual">
+                    <div>
+                        <img src="todd-s.jpg" alt="Todd">
+                        <p>Todd S</p>
+                    </div>
+                    <div>
+                        <button><img src="accept-circle.png" alt="accept"></button>
+                        <button><img src="close-circle.png" alt="close"></button>
+                    </div>
+                </li>
+                <li class="individual">
+                    <div>
+                        <img src="phil-s.jpg" alt="Phil">
+                        <p>Phil K</p>
+                    </div>
+                    <div>
+                        <button><img src="accept-circle.png" alt="accept"></button>
+                        <button><img src="close-circle.png" alt="close"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="connections">
+            <div class="networking-banner"><span class="count">500+</span>Your Connections</div>
+            <ul class="list">
+                <li class="individual"><img src="adrien-s.jpg" alt="Adrien"><p>Adrien D</p></li>
+                <li class="individual"><img src="anne-s.jpg" alt="Anne"><p>Anne J</p></li>
+                <li class="individual"><img src="alayne-s.jpg" alt="Alayne"><p>Alayne T</p></li>
+                <li class="individual"><img src="arry-s.jpg" alt="Arry"><p>Arry Y</p></li>
+            </ul>
+            <a href="#" class="view-more">View More</a>
+        </div>
+    </div>
+</body>
+</html>
